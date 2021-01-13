@@ -1,0 +1,28 @@
+img {
+    height: 400px;
+  }
+  
+  li {
+    float: left;
+    padding: 10px;
+
+  }
+  
+  select {
+    display: block;
+    margin: auto;
+  }
+  
+  h1 {
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Architects Daughter', cursive;
+    margin-bottom: 10px;
+  }
+  footer {
+      float: left;
+      width: 100%;
+      padding: 10px;
+      font-family: 'Architects Daughter', cursive;
+  }
