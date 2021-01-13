@@ -16,16 +16,18 @@ Estimate of time needed to complete: 45 minutes
 
 Start time: 530
 
-Finish time: _____
+Finish time: 710
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hr 40 min
 
 Number and name of feature: Feature three - Style the application
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 15 min
 
-Start time: _____
+Start time: 640
 
-Finish time: _____
+Finish time: 655
 
-Actual time needed to complete: _____
+Actual time needed to complete: 15
+
+Collaborator: Brendan Smith
