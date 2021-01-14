@@ -43,7 +43,7 @@ Image.prototype.renderMenu = function () {
   $('select').append($menuClone);
 }
 
-let pageToShow = '/data/page-1.json'
+let pageToShow = 'data/page-1.json'
 const horns = [];
 
 // Ajax functions
@@ -67,7 +67,7 @@ $('select').on('change', function (e) {
 $('#page2').on('click', function () {
   $('li').remove();
   horns.length = 0;
-  pageToShow = '/data/page-2.json';
+  pageToShow = 'data/page-2.json';
   $.ajax(`${pageToShow}`).then(returnData => {
     returnData.forEach(horn => {
       horns.push(new Image(horn.image_url, horn.title, horn.description, horn.keyword, horn.horns));
@@ -83,7 +83,7 @@ $('#page2').on('click', function () {
 $('#page1').on('click', function () {
   $('li').remove();
   horns.length = 0;
-  pageToShow = '/data/page-1.json';
+  pageToShow = 'data/page-1.json';
   $.ajax(`${pageToShow}`).then(returnData => {
     returnData.forEach(horn => {
       horns.push(new Image(horn.image_url, horn.title, horn.description, horn.keyword, horn.horns));
